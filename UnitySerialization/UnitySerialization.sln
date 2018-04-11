@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanClass", "LoanClass\LoanClass.csproj", "{411F70F9-A6F8-4503-9C60-24315123CA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSerialization", "CSharpSerialization\CSharpSerialization.csproj", "{256C0B53-5B6E-435C-B1BB-82C334BA1C1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411F70F9-A6F8-4503-9C60-24315123CA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411F70F9-A6F8-4503-9C60-24315123CA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411F70F9-A6F8-4503-9C60-24315123CA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411F70F9-A6F8-4503-9C60-24315123CA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256C0B53-5B6E-435C-B1BB-82C334BA1C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256C0B53-5B6E-435C-B1BB-82C334BA1C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256C0B53-5B6E-435C-B1BB-82C334BA1C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256C0B53-5B6E-435C-B1BB-82C334BA1C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21097C6-4E8D-4867-87F1-D7F296E122AA}
+	EndGlobalSection
+EndGlobal

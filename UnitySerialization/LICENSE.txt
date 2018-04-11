@@ -1,0 +1,2 @@
+Original source code is from 'https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/serialization/walkthrough-persisting-an-object-in-visual-studio'.
+It is provided in 'https://docs.microsoft.com/ko-kr/legal/termsofuse'

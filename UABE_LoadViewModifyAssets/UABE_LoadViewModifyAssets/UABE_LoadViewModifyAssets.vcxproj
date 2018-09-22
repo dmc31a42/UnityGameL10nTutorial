@@ -140,7 +140,8 @@
     </Link>
     <PostBuildEvent>
       <Command>xcopy "$(ProjectDir)..\UABE_API\bin32\AssetsTools.dll" "$(OutDir)" /Y
-xcopy "$(ProjectDir)..\Resource\*" "$(OutDir)Resource\" /Y</Command>
+xcopy "$(ProjectDir)..\Resource\*" "$(OutDir)Resource\" /Y
+xcopy "$(ProjectDir)..\ClassDatabase\*" "$(OutDir)ClassDatabase\" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

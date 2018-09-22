@@ -26,9 +26,30 @@
 			"hasContainerPath": true
 		},
 		"replaceAssetPath": "Resource\\OpenSans SDF MonoBehaviour.json",
-		"UseContainerPath": true,
+		"UseContainerPath": false,
 		"_TextureHeight": 4096,
 		"_TextureWidth": 4096,
+		"m_Width": 4096,
+		"m_Height": 4096,
+		"m_CompleteImageSize": 16777216,
+		"atlasPath": "Nanum.assets.resS",
+		"ToCopy":{
+			"Resource\\Nanum.assets.resS": "Nanum.assets.resS"
+		}
+	},
+	{
+		"AssetLogicalPath": {
+			"AssetsName": "sharedassets0.assets",
+			"AssetName": "OpenSans SDF",
+			"ContainerPath": "",
+			"hasContainerPath": false
+		},
+		"replaceAssetPath": "Resource\\OpenSans SDF MonoBehaviour.json",
+		"UseContainerPath": false,
+		"_TextureHeight": 4096,
+		"_TextureWidth": 4096,
+		"m_Width": 4096,
+		"m_Height": 4096,
 		"m_CompleteImageSize": 16777216,
 		"atlasPath": "Nanum.assets.resS",
 		"ToCopy":{

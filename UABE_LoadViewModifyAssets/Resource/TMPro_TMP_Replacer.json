@@ -1,0 +1,38 @@
+[
+	{
+		"AssetLogicalPath": {
+			"AssetsName": "sharedassets0.assets",
+			"AssetName": "Baloo-Regular SDF",
+			"ContainerPath": "fonts & materials/baloo/baloo-regular sdf",
+			"hasContainerPath": true
+		},
+		"replaceAssetPath": "Resource\\OpenSans SDF MonoBehaviour.json",
+		"UseContainerPath": true,
+		"_TextureHeight": 4096,
+		"_TextureWidth": 4096,
+		"m_Width": 4096,
+		"m_Height": 4096,
+		"m_CompleteImageSize": 16777216,
+		"atlasPath": "Nanum.assets.resS",
+		"ToCopy":{
+			"Resource\\Nanum.assets.resS": "Nanum.assets.resS"
+		}
+	},
+	{
+		"AssetLogicalPath": {
+			"AssetsName": "resources.assets",
+			"AssetName": "NotoSansCJKsc-Regular SDF",
+			"ContainerPath": "fonts & materials/google noto/simplified chinese/notosanscjksc-regular sdf",
+			"hasContainerPath": true
+		},
+		"replaceAssetPath": "Resource\\OpenSans SDF MonoBehaviour.json",
+		"UseContainerPath": true,
+		"_TextureHeight": 4096,
+		"_TextureWidth": 4096,
+		"m_CompleteImageSize": 16777216,
+		"atlasPath": "Nanum.assets.resS",
+		"ToCopy":{
+			"Resource\\Nanum.assets.resS": "Nanum.assets.resS"
+		}
+	}
+]

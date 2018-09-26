@@ -1,5 +1,13 @@
 #pragma once
 #include "json/json.h"
+
+#include "AssetsTools/AssetsFileReader.h"
+#include "AssetsTools/AssetsFileFormat.h"
+#include "AssetsTools/ClassDatabaseFile.h"
+#include "AssetsTools/AssetsFileTable.h"
+#include "AssetsTools/ResourceManagerFile.h"
+#include "AssetsTools/AssetTypeClass.h"
+
 using namespace std;
 
 struct AssetLogicalPath {
@@ -15,20 +23,14 @@ AssetTypeValueField * GetAssetTypeValueFieldFromJsonRecursive(AssetTypeTemplateF
 
 AssetTypeValueField * GetAssetTypeValueFieldArrayFromJson(AssetTypeTemplateField * assetTypeTemplateField, Json::Value json);
 
+void GetClassIdFromAssetFileInfoEx(AssetsFileTable * assetsFileTable, AssetFileInfoEx * assetFileInfoEx, int & classId, UINT16 & monoClassId);
+
 void ReplaceMaterial(string assetsName, AssetsFileTable * assetsFileTable, AssetFileInfoEx * assetFileInfoEx, AssetTypeInstance * assetTypeInstance, float _TextureHeight, float _TextureWidth);
 
 void ReplaceAtlas(string assetsname, AssetsFileTable * assetsFileTable, AssetFileInfoEx * assetFileInfoEx, AssetTypeInstance * assetTypeInstance, int m_CompleteImageSize, string atlasPath, int m_Width, int m_Height);
 
-string readFile2(const string & fileName);
-
-bool copyFile(const char * SRC, const char * DEST);
-
-bool copyFile(const wchar_t * SRC, const wchar_t * DEST);
-
-vector<wstring> get_all_files_names_within_folder(wstring filter);
-
-bool CreateProcessCustom(wstring commandLine);
-
 bool ProcessResourceAndMonoManger(AssetsFileTable * globalgamemanagersTable, wstring gameFolderPath, string globalgamemanagersName);
+
+bool LoadMonoClassDatabase(wstring gameFolderPath, vector<string> AssemblyNames);
 
 bool LoadFindMonoClassNameFromMonoScriptPathId(AssetsFileTable * globalgamemanagersAssetsTable);

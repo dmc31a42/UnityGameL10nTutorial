@@ -1,3 +1,0 @@
-LIBRARY TextAsset
-EXPORTS
-    GetAssetBundlePluginInfo
